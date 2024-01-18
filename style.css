@@ -1,0 +1,53 @@
+
+/********************************************/ 
+ .imagem-home {
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards ease-in-out;
+  }
+  
+  @keyframes fadeInAnimation {
+    to {
+      opacity: 1;
+    }
+  }
+
+/********************************************/
+
+.efeito-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.efeito-zoom:hover {
+  transform: scale(1.1); /* Ajuste o valor conforme necessário para o tamanho desejado */
+}
+
+/********************************************/
+
+.card-neon-1 {
+  background: transparent;
+  border: 2px solid #74C0FC;
+  color: #74C0FC;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+}
+
+.card-neon-1:hover {
+  box-shadow: 0 0 15px #74C0FC, inset 0 0 15px #74C0FC;
+  text-shadow: 0 0 15px #74C0FC;
+}
+
+.card-neon {
+  background: transparent;
+  border: 2px solid white;
+  color: #74C0FC;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+}
+
+.card-neon:hover {
+  box-shadow: 0 0 15px white, inset 0 0 15px white;
+}
+
+/********************************************/
+
+
